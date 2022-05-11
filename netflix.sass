@@ -1,0 +1,232 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    background-color: rgba(44, 36, 36, 0.904)
+    font-family: Arial, Helvetica, sans-serif
+a,li
+    list-style: none
+    text-decoration: none
+    color: inherit
+.para
+    align-self: center
+    h1
+        margin: 1rem 0
+
+    p
+        margin: 1rem 0
+
+/* SECTION 1 */
+
+.sec-1
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5c235903-02cc-4228-85a2-5fcef1e47627/eb81131c-8403-427f-b1dc-6094c31b3a91/IN-en-20211227-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat
+    height: 100vh
+    background-size: cover
+    margin-bottom: 6px
+
+header
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    padding: 0 3.5rem
+    height: 65px
+
+    & .logo
+        width: 25%
+        min-width: 100px
+
+.lang-sign
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    gap: 2rem
+
+#lang
+    border: 1px solid white
+    background-color: #00000000
+    color: white
+    border-radius: 2px
+    font-size: medium
+    cursor: pointer
+    outline: none
+    padding: .4rem .5rem
+
+#signin
+    border: 1px solid red
+    background-color: red
+    color: white
+    border-radius: 2px
+    font-size: medium
+    cursor: pointer
+    padding: .4rem .5rem
+
+.sec-1-main
+    display: grid
+    grid-template-rows: repeat(2, 1fr)
+    gap: 1rem
+    color: white
+    text-align: center
+    font-size: 2em
+
+.sec1-para h1
+    font-weight: 700
+    margin: .5rem
+
+.sec1-para p
+    font-size: 1.5rem
+    margin: 1rem
+
+.signup-sec
+    margin: .5rem
+
+    & p
+        font-size: 1.2rem
+        margin: .5rem
+
+.email-sec
+    display: flex
+    align-items: center
+    justify-content: center
+
+    & input
+        width: 28.5rem
+        padding: 1.15rem
+        font-size: 1.2rem
+        outline: none
+        border-radius: 0
+        border: 1px solid skyblue
+
+    & button
+        width: 12rem
+        padding: 1rem
+        background-color: red
+        color: white
+        font-size: 1.5rem
+
+/* SECTION 2 */
+
+.sec-2
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    gap: 2rem
+    align-items: center
+    background-color: black
+    font-size: xx-large
+    color: white
+    margin-bottom: 6px
+    padding: 5rem
+    p
+        font-size: 1.5rem
+        line-height: 2rem
+
+// SECTION 3 
+
+.sec-3
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    gap: 5rem
+    align-items: center
+    background-color: black
+    font-size: xx-large
+    color: white
+    margin-bottom: 6px
+    padding: 5rem 2rem
+    p
+        font-size: 1.5rem
+        line-height: 2rem
+
+    img
+        width: 45%
+
+/* SECTION 4 */
+
+.sec-4
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    gap: 5rem
+    align-items: center
+    background-color: black
+    font-size: xx-large
+    color: white
+    margin-bottom: 6px
+    padding: 5rem
+    p
+        font-size: 1.5rem
+        line-height: 2rem
+
+    img
+        width: 40%
+
+/* SECTION 5 */
+
+.sec-5
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    gap: 5rem
+    align-items: center
+    background-color: black
+    font-size: 2rem
+    color: white
+    margin-bottom: 6px
+    padding: 5rem
+    p
+        font-size: 1.5rem
+        line-height: 2rem
+
+    img
+        width: 45%
+
+/* SECTION 6 */
+
+.sec-6
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    background-color: black
+    color: white
+    font-size: 2rem
+    margin-bottom: 6px
+    padding: 5rem
+    text-align: center
+    h1
+        margin-bottom: 3rem
+    &-button
+        display: flex
+        justify-content: space-between
+        border: none
+        margin: 5px 13%
+        font-size: 1.7rem
+        background-color: #322b2b
+        color: white
+        padding: 20px 20px
+        text-align: left
+        cursor: pointer
+    .signup-sec
+        margin-top: 3rem
+
+.footer
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    background-color: black
+    color: white
+    font-size: 1rem
+    margin-bottom: 6px
+    padding: 5rem
+    text-align: center
+    .footer-top
+        margin-bottom: 5rem
+    .footer-links
+        display: grid
+        grid-template-columns: repeat(4, 1fr)
+        grid-gap: .5rem
